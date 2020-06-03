@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link type="text/plain" rel="author" href="https://www.williamjohnston.us/humans.txt" />
   <title>{% block page_title %}William Johnston for State Representative in SD53A{% endblock %}</title>
   <meta name="description" content="William Johnston for State Representative in SD53A." />
   <link rel="stylesheet" href="/assets/style.min.css" />

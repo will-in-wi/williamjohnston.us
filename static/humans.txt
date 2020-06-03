@@ -1,0 +1,12 @@
+/* TEAM */
+
+Developer: William Johnston.
+Site: https://www.williamjohnston.us
+Location: Oakdale, Minnesota, USA
+Source: https://github.com/will-in-wi/williamjohnston.us
+
+/* SITE */
+
+Standards: HTML, CSS, et all
+Components: None. The modern web is pretty powerful, after all…
+Software: VS Code, Yarn, Gulp, Nunjucks, Sass…
