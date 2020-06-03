@@ -1,0 +1,18 @@
+// For the generally independent, small definitions. If you feel any urge to
+// introduce newlines or comments to delineate a section, extract it into a
+// file.
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pull-right {
+  float: right;
+  padding-left: 10px;
+}
+
+.upcase {
+  text-transform: uppercase;
+}

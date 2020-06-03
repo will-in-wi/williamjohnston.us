@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>{% block page_title %}William Johnston for State Representative in SD53A{% endblock %}</title>
+  <meta name="description" content="William Johnston for State Representative in SD53A." />
+  <link rel="stylesheet" href="/assets/style.min.css" />
+  {# <link rel="icon" type="image/png" sizes="64x64" href="/assets/icons/icon64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon180.png"> #}
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <a href="/">
+        {# <img src="/assets/logo.svg" /> #}
+        <h1>
+          William Johnston<br />
+          <small>Candidate for State Representative in SD53A</small>
+        </h1>
+      </a>
+    </header>
+    <nav class="site-navigation">
+      {# <ul>
+        <li class="{% block menu_home_active %}{% endblock %}">
+          <a href="/">Home</a>
+        </li>
+        <li class="{% block menu_donate_active %}{% endblock %}">
+          <a href="/donate/">Donate</a>
+        </li>
+        <li class="{% block menu_positions_active %}{% endblock %}">
+          <a href="/positions/">Positions</a>
+        </li>
+      </ul> #}
+    </nav>
+
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

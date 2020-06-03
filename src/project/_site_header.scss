@@ -1,0 +1,26 @@
+.site-header {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    max-width: 181px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444444;
+    display: inline-block;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 2em;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.site-footer {
+  margin-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .site-footer_img {
+    padding: 1em;
+
+    text-decoration: none;
+    align-self: center;
+    max-width: 300px;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

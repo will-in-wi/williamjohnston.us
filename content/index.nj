@@ -1,0 +1,13 @@
+{% extends "layout.nunjucks" %}
+
+{% block menu_home_active %}active{% endblock %}
+
+{% block content %}
+<div class="container">
+  <article class="page-content">
+    <p>Hey everyone! I'm just getting this website going, and it's obviously ridiculously bare at the moment. More to come.</p>
+
+    <p>But, here's the initial pitch: I would be honored to work for you in St. Paul as your representative. I believe in setting you loose by limiting the capability of your government to get in your way, while making them do the jobs they are supposed to do better and more efficiently.</p>
+  </article>
+</div>
+{% endblock %}
