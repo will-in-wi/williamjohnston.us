@@ -10,6 +10,16 @@
   <link rel="stylesheet" href="/assets/style.min.css" />
   {# <link rel="icon" type="image/png" sizes="64x64" href="/assets/icons/icon64.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon180.png"> #}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168391173-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168391173-1');
+  </script>
 </head>
 <body>
   <div class="page-wrapper">
