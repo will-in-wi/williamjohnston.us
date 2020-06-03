@@ -1,14 +1,16 @@
 # williamjohnston.us website
 
+Hello! This is the source code underlying the 2020 campaign site for Minnesota State Representative for SD53A.
+
+If you live in this area, vote for me!
+
+If you don't, maybe you'll find the code interesting.
+
 ## Quickstart
 
 To see the website, run `yarn serve` and visit http://localhost:9000
 
 To build the website, run `yarn build`. It'll be in the build folder.
-
-## Deployment
-
-TODO
 
 ## Structure
 
