@@ -9,7 +9,11 @@
 
     <p>But, here's the initial pitch: I would be honored to work for you in St. Paul as your representative. I believe in setting you loose by limiting the capability of your government to get in your way, while making it do the jobs it is supposed to do better and more efficiently.</p>
 
-    <p>Feel free to email me with questions, comments, or whatever else at <a href="mailto:william@williamjohnston.us">william@williamjohnston.us</a></p>
+    <div itemscope itemtype="http://schema.org/Person">
+      <p>My name is <span itemprop="name">William Johnston</span>. I work as a <span itemprop="jobTitle">software engineer</span> and live in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oakdale</span>, <span itemprop="addressRegion">MN</span></span>. I'm running to represent Landfall and parts of Maplewood, Oakdale, and Woodbury in the Minnesota state legislature.</p>
+
+      <p>Feel free to email me with questions, comments, or whatever else at <a href="mailto:william@williamjohnston.us" itemprop="email">william@williamjohnston.us</a></p>
+    </div>
   </article>
 </div>
 {% endblock %}
