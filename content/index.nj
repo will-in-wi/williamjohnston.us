@@ -14,6 +14,18 @@
 
       <p>Feel free to email me with questions, comments, or whatever else at <a href="mailto:william@williamjohnston.us" itemprop="email">william@williamjohnston.us</a></p>
     </div>
+
+    <h2>Donate!</h2>
+
+    <p>To donate, please make out a cheque to:<br />
+      <address>
+        Campaign Fund of William Johnston<br />
+        107 Gresham Ave N<br />
+        Oakdale, MN 55128
+      </address>
+    </p>
+
+    <p>Online donation is in the works!</p>
   </article>
 </div>
 {% endblock %}
