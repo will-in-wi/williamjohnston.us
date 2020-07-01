@@ -1,0 +1,8 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="container">
+  <article class="page-content">
+    <p>Thank you so much for supporting my campaign! You are helping to make Minnesota a better place for everyone.</p>
+</div>
+{% endblock %}
