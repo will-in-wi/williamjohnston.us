@@ -47,6 +47,24 @@
     </nav>
 
     {% block content %}{% endblock %}
+
+    <footer class="site-footer">
+      <a class="site-footer_img site-footer_logo-handle" href="https://parler.com/profile/williamformn/">
+        <img src="/assets/footer/parler_logo.png" alt="WilliamForMN on Parler" /> @williamformn
+      </a>
+
+      <a class="site-footer_img" href="https://www.facebook.com/William-Johnston-105103887907338/">
+        <img src="/assets/footer/facebook.svg" alt="Find me on Facebook" />
+      </a>
+
+      <a class="site-footer_img site-footer_logo-handle" href="https://twitter.com/williamformn">
+        <img src="/assets/footer/twitter.svg" alt="Find me on Twitter" /> @williamformn
+      </a>
+
+      {# <a class="site-footer_img" href="https://www.youtube.com/channel/UCKkQALsmjYPGaoC9_JczJUw">
+        <img src="/assets/footer/youtube.svg" alt="Watch me on YouTube" />
+      </a> #}
+    </footer>
   </div>
 </body>
 </html>
