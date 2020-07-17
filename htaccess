@@ -536,24 +536,24 @@ AddDefaultCharset utf-8
 # https://www.html5rocks.com/en/tutorials/security/content-security-policy/
 # https://www.w3.org/TR/CSP/
 
-<IfModule mod_headers.c>
-    #                                         (1)                 (2)              (3)                                           (4)                     (5)
-    Header set Content-Security-Policy "default-src 'self'; base-uri 'none'; form-action 'self' https://www.paypal.com; frame-ancestors 'none'; upgrade-insecure-requests; frame-src https://www.youtube-nocookie.com https://calendar.google.com; report-uri https://correctbatteryhorsestaple.report-uri.com/r/d/csp/wizard; img-src 'self' https://www.paypal.com https://www.paypalobjects.com"
-    #"expr=%{CONTENT_TYPE} =~ m#text/html#i"
-</IfModule>
-
-
-# Specify allowed features.
-<IfModule mod_headers.c>
-    # We have no JS at the moment, so any usage of features is bad. We should override for specific iframes.
-    Header set Feature-Policy "geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'"
-</IfModule>
-
-# Specify expecting Certificate Transparency
-<IfModule mod_headers.c>
-    # Let's Encrypt is well behaved.
-    Header set Expect-CT "max-age=0, report-uri='https://correctbatteryhorsestaple.report-uri.com/r/d/ct/reportOnly'"
-</IfModule>
+#<IfModule mod_headers.c>
+#    #                                         (1)                 (2)              (3)                                           (4)                     (5)
+#    Header set Content-Security-Policy "default-src 'self'; base-uri 'none'; form-action 'self' https://www.paypal.com; frame-ancestors 'none'; upgrade-insecure-requests; frame-src https://www.youtube-nocookie.com https://calendar.google.com; report-uri https://correctbatteryhorsestaple.report-uri.com/r/d/csp/wizard; img-src 'self' https://www.paypal.com https://www.paypalobjects.com"
+#    #"expr=%{CONTENT_TYPE} =~ m#text/html#i"
+#</IfModule>
+#
+#
+## Specify allowed features.
+#<IfModule mod_headers.c>
+#    # We have no JS at the moment, so any usage of features is bad. We should override for specific iframes.
+#    Header set Feature-Policy "geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'"
+#</IfModule>
+#
+## Specify expecting Certificate Transparency
+#<IfModule mod_headers.c>
+#    # Let's Encrypt is well behaved.
+#    Header set Expect-CT "max-age=0, report-uri='https://correctbatteryhorsestaple.report-uri.com/r/d/ct/reportOnly'"
+#</IfModule>
 
 # ----------------------------------------------------------------------
 # | File access                                                        |
