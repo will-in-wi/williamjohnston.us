@@ -59,8 +59,8 @@
         <img src="/assets/footer/parler_logo.png" alt="WilliamForMN on Parler" /> @williamformn
       </a>
 
-      <a class="site-footer_img" href="https://www.facebook.com/William-Johnston-105103887907338/">
-        <img src="/assets/footer/facebook.svg" alt="Find me on Facebook" />
+      <a class="site-footer_img site-footer_logo-handle" href="https://www.facebook.com/William-Johnston-105103887907338/">
+        <img src="/assets/footer/facebook.svg" alt="WilliamForMN on Facebook" /> @williamformn
       </a>
 
       <a class="site-footer_img site-footer_logo-handle" href="https://twitter.com/williamformn">
@@ -70,6 +70,10 @@
       {# <a class="site-footer_img" href="https://www.youtube.com/channel/UCKkQALsmjYPGaoC9_JczJUw">
         <img src="/assets/footer/youtube.svg" alt="Watch me on YouTube" />
       </a> #}
+
+      <p class="disclaimer">
+        Prepared and paid for by the Campaign of William Johnston committee, 107 Gresham Ave N, Oakdale, MN 55128.
+      </p>
     </footer>
   </div>
 </body>
