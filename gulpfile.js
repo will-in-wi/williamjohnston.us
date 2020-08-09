@@ -1,13 +1,11 @@
 const gulp = require('gulp');
 const nunjucksRender = require('gulp-nunjucks-render');
-const sass = require('gulp-sass');
 const csso = require('gulp-csso');
+const postcss = require('gulp-postcss');
 // const concat = require('gulp-concat');
 const rename = require('gulp-rename');
 // const sourcemaps = require('gulp-sourcemaps');
 
-// Use dart-sass for modules.
-sass.compiler = require('sass');
 
 gulp.task('html', function () {
   return gulp.src('content/**/*.+(html|nj)')
@@ -18,9 +16,12 @@ gulp.task('html', function () {
 });
 
 gulp.task('css', function () {
-  return gulp.src(['src/styles.scss'])
+  return gulp.src(['src/styles.css'])
     // .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(postcss([
+      require('tailwindcss'),
+      require('autoprefixer'),
+    ]))
     .pipe(csso())
     .pipe(rename('style.min.css'))
     // .pipe(sourcemaps.write('.'))
