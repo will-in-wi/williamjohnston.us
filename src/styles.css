@@ -1,0 +1,7 @@
+@tailwind base;
+
+a { color: theme('colors.blue.800'); }
+
+@tailwind components;
+@tailwind utilities;
+

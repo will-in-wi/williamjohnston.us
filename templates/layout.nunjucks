@@ -30,54 +30,65 @@
   </script>
 <!-- End Matomo Code -->
 </head>
-<body>
-  <div class="page-wrapper">
-    <header class="site-header">
-      <a href="/">
-        {# <img src="/assets/logo.svg" /> #}
-        <h1>
-          William Johnston<br />
-          <small>Candidate for State Representative in HD53A</small>
-        </h1>
-      </a>
-    </header>
-    <nav class="site-navigation">
-      {# <ul>
-        <li class="{% block menu_home_active %}{% endblock %}">
-          <a href="/">Home</a>
-        </li>
-        <li class="{% block menu_donate_active %}{% endblock %}">
-          <a href="/donate/">Donate</a>
-        </li>
-        <li class="{% block menu_positions_active %}{% endblock %}">
-          <a href="/positions/">Positions</a>
-        </li>
-      </ul> #}
-    </nav>
+<body class="bg-gray-100">
+<div class="max-w-screen-lg mx-auto">
+  <header class="grid grid-cols-1 sm:grid-cols-2 items-center p-4 bg-red-800">
+    <div class="md:mr-16 mr-4">
+      <img src="/assets/wjlogo.png" alt="William Johnston for state representative" class="w-3/4 sm:w-64 mx-auto sm:mx-0" />
+    </div>
+    <div class="flex-auto text-center">
+      <h3 class="mt-4 sm:mt-0 sm:text-xl lg:text-2xl text-white">Candidate for State Representative in HD53A</h3>
+    </div>
+  </header>
+  <nav class="grid sm:grid-cols-8 grid-cols-5 mx-auto py-4 mb-4 divide-x divide-gray-400">
+    <div class="text-center">
+      <a href="#who">Who?</a>
+    </div>
+    <div class="text-center">
+      <a href="#why">Why?</a>
+    </div>
+    <div class="text-right sm:col-span-6 col-span-3">
+      <a href="https://secure.winred.com/william-for-mn/donate-today" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-4 rounded focus:outline-none focus:shadow-outline">Donate</a>
+    </div>
+  </nav>
 
     {% block content %}{% endblock %}
-
-    <footer class="site-footer">
-      <a class="site-footer_img site-footer_logo-handle" href="https://parler.com/profile/williamformn/">
-        <img src="/assets/footer/parler_logo.png" alt="WilliamForMN on Parler" /> @williamformn
-      </a>
-
-      <a class="site-footer_img site-footer_logo-handle" href="https://www.facebook.com/williamformn/">
-        <img src="/assets/footer/facebook.svg" alt="WilliamForMN on Facebook" /> @williamformn
-      </a>
-
-      <a class="site-footer_img site-footer_logo-handle" href="https://twitter.com/williamformn">
-        <img src="/assets/footer/twitter.svg" alt="Find me on Twitter" /> @williamformn
-      </a>
-
-      {# <a class="site-footer_img" href="https://www.youtube.com/channel/UCKkQALsmjYPGaoC9_JczJUw">
-        <img src="/assets/footer/youtube.svg" alt="Watch me on YouTube" />
-      </a> #}
-
-      <p class="disclaimer">
-        Prepared and paid for by the Campaign of William Johnston committee, 107 Gresham Ave N, Oakdale, MN 55128.
-      </p>
-    </footer>
+</div>
+<div class="clearfix w-full bg-gray-300 mt-8">
+  <div class="w-full flex justify-center">
+    <div class="grid gap-4 sm:gap-6 sm:grid-cols-2 grid-cols-1 mx-auto">
+      <div class="sm:col-span-2 mt-6 mx-auto">
+      <a href="https://secure.winred.com/william-for-mn/donate-today" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 my-4 rounded focus:outline-none focus:shadow-outline">Donate</a>
+      </div>
+      <div class="mx-auto">
+        <a href="https://twitter.com/williamformn">
+        <svg aria-labelledby="twitter-logo-title" role="img" class="inline-block mr-1" width="2rem" height="2rem" viewBox="0 0 401 402" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <title id="twitter-logo-title">Twitter Logo</title>
+          <g>
+            <path d="M400.262,202c0,110.457 -89.543,200 -200,200c-110.457,0 -200,-89.543 -200,-200c0,-110.456 89.543,-199.999 200,-199.999c110.457,0 200,89.543 200,199.999Z" style="fill:#419bd6;fill-rule:nonzero;"/>
+            <path d="M163.668,307.493c88.682,0 137.179,-73.47 137.179,-137.179c0,-2.088 -0.042,-4.166 -0.138,-6.233c9.414,-6.805 17.597,-15.296 24.053,-24.964c-8.64,3.838 -17.936,6.424 -27.688,7.59c9.953,-5.968 17.596,-15.413 21.2,-26.67c-9.317,5.522 -19.632,9.54 -30.614,11.703c-8.798,-9.372 -21.328,-15.233 -35.193,-15.233c-26.628,0 -48.221,21.592 -48.221,48.21c0,3.784 0.424,7.463 1.251,10.993c-40.07,-2.014 -75.602,-21.201 -99.379,-50.373c-4.145,7.123 -6.53,15.402 -6.53,24.232c0,16.728 8.512,31.494 21.455,40.133c-7.907,-0.243 -15.338,-2.417 -21.836,-6.031c-0.011,0.201 -0.011,0.403 -0.011,0.614c0,23.353 16.622,42.847 38.681,47.268c-4.049,1.102 -8.311,1.696 -12.71,1.696c-3.106,0 -6.127,-0.308 -9.063,-0.87c6.137,19.155 23.935,33.095 45.041,33.487c-16.505,12.933 -37.292,20.639 -59.882,20.639c-3.89,0 -7.728,-0.223 -11.501,-0.668c21.338,13.674 46.673,21.656 73.906,21.656Z" style="fill:#fff;fill-rule:nonzero;"/>
+          </g>
+        </svg>
+          twitter.com/williamformn
+        </a>
+      </div>
+      <div class="mx-auto">
+        <a href="https://facebook.com/williamformn">
+        <svg aria-labelledby="facebook-logo-title" role="img" class="inline-block mr-1" width="2rem" height="2rem" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <title id="facebook-logo-title">Facebook Logo</title>
+          <g>
+            <path d="M1024,512c0,-282.77 -229.23,-512 -512,-512c-282.77,0 -512,229.23 -512,512c0,255.554 187.231,467.37 432,505.78l0,-357.78l-130,0l0,-148l130,0l0,-112.8c0,-128.32 76.438,-199.2 193.39,-199.2c56.017,0 114.61,10 114.61,10l0,126l-64.562,0c-63.603,0 -83.438,39.467 -83.438,79.957l0,96.043l142,0l-22.7,148l-119.3,0l0,357.78c244.769,-38.41 432,-250.226 432,-505.78Z" style="fill:#1877f2;fill-rule:nonzero;"/>
+            <path d="M711.3,660l22.7,-148l-142,0l0,-96.043c0,-40.49 19.835,-79.957 83.438,-79.957l64.562,0l0,-126c0,0 -58.593,-10 -114.61,-10c-116.952,0 -193.39,70.88 -193.39,199.2l0,112.8l-130,0l0,148l130,0l0,357.78c26.067,4.09 52.784,6.22 80,6.22c27.216,0 53.933,-2.13 80,-6.22l0,-357.78l119.3,0Z" style="fill:#fff;fill-rule:nonzero;"/>
+          </g>
+        </svg>
+          facebook.com/williamformn
+        </a>
+      </div>
+      <div class="text-center sm:col-span-2 mx-auto mb-4 px-2">
+        <span class="italic">Prepared and paid for by William for MN committee</span>
+      </div>
+    </div>
   </div>
+</div>
 </body>
 </html>

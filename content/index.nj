@@ -3,48 +3,50 @@
 {% block menu_home_active %}active{% endblock %}
 
 {% block content %}
-<div class="container">
-  <article class="page-content">
-    <p>I would be honored to work for you in St. Paul as your representative. I believe in setting you loose by limiting the capability of your government to get in your way, while making it do the jobs it is supposed to do better and more efficiently.</p>
-
-    <div itemscope itemtype="http://schema.org/Person">
-      <p>My name is <span itemprop="name">William Johnston</span>. I work as a <span itemprop="jobTitle">software engineer</span> and live in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oakdale</span>, <span itemprop="addressRegion">MN</span></span>. I'm running to represent Landfall and parts of Maplewood, Oakdale, and Woodbury in the Minnesota state legislature.</p>
-
-      <p>Feel free to email me with questions, comments, or whatever else at <a href="mailto:william@williamjohnston.us" itemprop="email">william@williamjohnston.us</a></p>
-    </div>
-
-    <h2>Donate!</h2>
-
-    <p>To donate, please make out a cheque to:<br />
-      <address>
-        Campaign Fund of William Johnston<br />
-        107 Gresham Ave N<br />
-        Oakdale, MN 55128
-      </address>
-    </p>
-
-    <p><a href="https://secure.winred.com/william-for-mn/donate-today">or Donate Online</a></p>
-
-
-    <h2>Sign up for updates</h2>
-    <!-- Begin Mailchimp Signup Form -->
-    <div id="mc_embed_signup">
-    <form action="https://williamjohnston.us10.list-manage.com/subscribe/post?u=a9792d1c3ba96188ce68d3af4&amp;id=94bce3037a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-        <div class="mc-field-group">
-          <label for="mce-EMAIL">Email Address </label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+<article>
+  <div class="w-full max-w-sm mx-auto" id="mc_embed_signup">
+    <form action="https://williamjohnston.us10.list-manage.com/subscribe/post?u=a9792d1c3ba96188ce68d3af4&amp;id=94bce3037a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" target="_blank" novalidate>
+      <h3 class="text-lg text-gray-800 mb-4 text-center">Sign up for updates</h3>
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-2/3">
+          <label class="hidden" for="mce-EMAIL">Email Address</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="EMAIL" id="mce-EMAIL" type="text" placeholder="Email address">
         </div>
         <div id="mce-responses" class="clear">
           <div class="response" id="mce-error-response" style="display:none"></div>
           <div class="response" id="mce-success-response" style="display:none"></div>
         </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a9792d1c3ba96188ce68d3af4_94bce3037a" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div class="w-full mt-2 sm:w-1/3 sm:mt-0 flex align-center justify-end">
+          <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        </div>
       </div>
     </form>
-    </div>
-    <!--End mc_embed_signup-->
-  </article>
-</div>
+  </div>
+  <div class="my-8">
+    <img srcset="/assets/wn512.jpg 512w,
+                 /assets/wn1024.jpg 1024w,
+                 /assets/wn2048.jpg 2048w"
+        sizes="(max-width: 640px) 512px,
+               (max-width: 1024px) 1024px,
+               2048px"
+        src="/assets/wn1024.jpg"
+        alt="William and Naomi Johnston">
+  </div>
+  <div class="w-full max-w-lg mx-auto px-4">
+    <h2 class="font-sans text-xl sm:text-2xl font-light italic leading-snug mb-4">The American Dream is very much alive for everyone. If we defend it, we can maintain the opportunity for every person to pursue a better life, and leave our kids better off than they started.</h2>
+    <h2 id="who" class="font-sans text-xl font-bold mb-2">Who is William Johnston?</h2>
+    <ul class="list-disc mb-4 ml-8">
+      <li>Software engineer</li>
+      <li>Married to the love of my life for over six years</li>
+      <li>Active member of Divinity Lutheran Church, currently serving on the governing board</li>
+      <li>B.A. in Computer Science from Thomas Edison State University in Trentin, NJ</li>
+      <li>Homeschooled through High School</li>
+    </ul>
+    <h2 id="why" class="font-sans text-xl font-bold mb-2">Why William Johnston?</h2>
+    <p><strong>Economic growth</strong> means greater prosperity and more opportunities for all Minnesotans, especially the marginalized. We can renew that growth by taking a balanced approach to business regulation, taxes and spending.</p>
+    <p><strong>Safe and strong</strong> communities need well funded law enforcement. Peace officers should receive extensive training and be held accountable.</p> 
+    <p><strong>School choice</strong> is a family decision. Whether public, charter, private or home, Minnesota children deserve excellent schools so that families can select the school best suited for their child and prepare them for their futures.</p>
+  </div>
+</article>
 {% endblock %}
