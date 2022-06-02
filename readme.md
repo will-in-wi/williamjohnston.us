@@ -1,6 +1,6 @@
 # williamjohnston.us website
 
-Hello! This is the source code underlying the 2020 campaign site for Minnesota State Representative for HD53A.
+Hello! This is the source code underlying the 2022 campaign site for Minnesota State Representative for HD44B.
 
 If you live in this area, vote for me!
 
