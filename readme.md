@@ -8,9 +8,9 @@ If you don't, maybe you'll find the code interesting.
 
 ## Quickstart
 
-To see the website, run `yarn serve` and visit http://localhost:9000
+To see the website, run `npm run serve` and visit http://localhost:9000
 
-To build the website, run `yarn build`. It'll be in the build folder.
+To build the website, run `npm run build`. It'll be in the build folder.
 
 ## Structure
 
