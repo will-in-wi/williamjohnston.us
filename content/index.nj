@@ -38,15 +38,16 @@
     <h2 id="who" class="font-sans text-xl font-bold mb-2">Who is William Johnston?</h2>
     <ul class="list-disc mb-4 ml-8">
       <li>Software engineer</li>
-      <li>Married to the love of my life for over six years</li>
+      <li>Married to the love of my life for over eight years</li>
       <li>Active member of Divinity Lutheran Church, currently serving on the governing board</li>
       <li>B.A. in Computer Science from Thomas Edison State University in Trenton, NJ</li>
       <li>Homeschooled through High School</li>
     </ul>
     <h2 id="why" class="font-sans text-xl font-bold mb-2">Why William Johnston?</h2>
     <p><strong>Economic growth</strong> means greater prosperity and more opportunities for all Minnesotans, especially the marginalized. We can renew that growth by taking a balanced approach to business regulation, taxes and spending.</p>
-    <p><strong>Safe and strong</strong> communities need well funded law enforcement. Peace officers should receive extensive training and be held accountable.</p> 
-    <p><strong>School choice</strong> is a family decision. Whether public, charter, private or home, Minnesota children deserve excellent schools so that families can select the school best suited for their child and prepare them for their futures.</p>
+    <p><strong>Safe and strong</strong> communities need well funded law enforcement. Peace officers should receive extensive training and be held accountable.</p>
+    <p><strong>School choice</strong> is a family decision. Whether public, charter, private or home, Minnesota children need excellent schools so that families can select the school best suited for their child and prepare them for their futures.</p>
+    <p><strong>Daylight Savings</strong> time changes need to end.</p>
   </div>
 </article>
 {% endblock %}
