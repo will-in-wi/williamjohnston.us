@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [
+  content: [
     './templates/**/*.nunjucks',
     './content/**/*.nj'
   ],
@@ -136,6 +136,5 @@ module.exports = {
       '6xl': '4rem',
     },
   },
-  variants: {},
   plugins: [],
 }
